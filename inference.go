@@ -5,9 +5,11 @@ import (
 	"os"
 	"regexp"
 
+	"github.com/emead-indeed/BiDiSentiment/assets"
+
 	tf "github.com/tensorflow/tensorflow/tensorflow/go"
+
 	"gopkg.in/neurosnap/sentences.v1"
-	"gopkg.in/vmarkovtsev/BiDiSentiment.v1/assets"
 )
 
 type model struct {

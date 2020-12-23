@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"gopkg.in/vmarkovtsev/BiDiSentiment.v1"
+	"github.com/emead-indeed/BiDiSentiment"
 )
 
 func main() {
